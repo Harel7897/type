@@ -1,0 +1,35 @@
+.login-page{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/src/components/img/Background.jpg');
+  background-size: cover;
+  background-position: center;
+  z-index: -1; /* מבטיח שהרקע יהיה מאחורי התוכן */
+}
+.Titel{
+text-align: center;
+color: #ff6b6b;
+font-weight: bold;
+font-size: 70px;
+text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* צללית לטקסט */
+
+}
+.open-dialog-button{
+  background: linear-gradient(45deg, #ff6b6b, #f7a500);
+  border-radius: 25px; 
+  font-size: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* צל מתחת לכפתור */
+  transition: transform 0.2s , box-shadow 0.2s ; 
+}
+.open-dialog-button:hover{
+  transform: scale(1.1); /* הגדלת הכפתור בהצבעה */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* הגברת הצל */
+}
+.B-center{
+display: flex;
+justify-content: center;
+align-items: center;
+}

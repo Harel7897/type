@@ -1,0 +1,31 @@
+
+ .H1{
+  text-align: center;
+  color: #ff6b6b;
+  font-weight: bold;
+  font-size: 70px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* צללית לטקסט */  
+}
+.B2-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.ButtonDialog {
+  background: linear-gradient(45deg, #ff6b6b, #f7a500);
+  border-radius: 25px; 
+  font-size: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* צל מתחת לכפתור */
+  transition: transform 0.2s , box-shadow 0.2s ; 
+  }
+  
+  .ButtonDialog:hover {
+    transform: scale(1.1); /* הגדלת הכפתור בהצבעה */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* הגברת הצל */
+  }
+  
+  .ButtonDialog:active {
+    transform: scale(0.95); /* הקטנת הכפתור בלחיצה */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* צל מוקטן */
+  }
+   
