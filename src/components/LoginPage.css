@@ -10,12 +10,17 @@
   z-index: -1; /* מבטיח שהרקע יהיה מאחורי התוכן */
 }
 .Titel{
-text-align: center;
-color: #ff6b6b;
-font-weight: bold;
-font-size: 70px;
-text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* צללית לטקסט */
-
+  font-size: 5rem; /* גודל טקסט גדול */
+  font-weight: bold; /* טקסט מודגש */
+  letter-spacing: 2px; /* רווח בין האותיות */
+  text-align: center; /* ממרכז את הטקסט */
+  text-transform: uppercase; /* הופך את הטקסט לאותיות גדולות */
+  /* padding: 20px 40px; ריפוד מסביב לכותרת */
+  /* background: #005bb5; צבע רקע כחול כהה לכותרת */
+  border-radius: 8px; /* גבולות מעוגלים */
+  /* box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); הצללה עדינה */
+  margin-top: 50px; /* רווח מהחלק העליון של הדף */
+  transition: all 0.3s ease; /* אפקט מעבר חלק */
 }
 .open-dialog-button{
   background: linear-gradient(45deg, #ff6b6b, #f7a500);
@@ -32,4 +37,11 @@ text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* צללית לטקסט */
 display: flex;
 justify-content: center;
 align-items: center;
+}
+.Connect{
+  background: linear-gradient(45deg, #ff6b6b, #f7a500);
+  border-radius: 25px; 
+  font-size: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* צל מתחת לכפתור */
+  transition: transform 0.2s , box-shadow 0.2s ;
 }

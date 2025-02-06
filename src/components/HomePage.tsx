@@ -10,7 +10,7 @@ const HomePage: React.FC = () => {
   const [isDialogOpen, setDialogOpen] = useState(false);
   const { setChosenPage } = useAuthContext();
   const {netRef,setNetRef}=useGraphContext();
-  
+
   const handleOpenDialog = () => {  
     setDialogOpen(true); // פותח את הדיאלוג
   };
@@ -86,7 +86,7 @@ useEffect(()=>{
         graph={graphData}
         option={options}
         getNetwork={(network:any)=>setNetRef(network)}
-        style={{height:"660px", background: "#f4f7fc"}}
+        style={{ height: "580px", background: "#f4f7fc", border: "2px solid #007bff" }}
         />
       </div>
     

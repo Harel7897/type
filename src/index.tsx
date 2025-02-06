@@ -5,6 +5,7 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import { AuthProvider } from './components/AuthContext';
 import { GraphProvider } from './components/GraphContext';
+import { MapProvider } from './components/MapContext';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -12,7 +13,9 @@ const root = ReactDOM.createRoot(
 root.render(
   <AuthProvider>
   <GraphProvider>
+    <MapProvider>
      <App />
+    </MapProvider>
   </GraphProvider>
   </AuthProvider>
 );

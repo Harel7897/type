@@ -69,10 +69,10 @@ const LoginPage: React.FC = () => {
   
   return (
     <div className="login-page">
-      <h1 className='Titel'>Welcome to the Login Page</h1>
+      <h1 className='Titel'>Welcome </h1>
       <div className='B-center'>
          <button className="open-dialog-button" onClick={handleOpenDialog}>
-        Open Dialog
+        LOGIN
       </button>
       </div>
      
@@ -100,9 +100,9 @@ const LoginPage: React.FC = () => {
           onChange={(e) => setInput2(e.target.value)}
         />
         {error2 && <p style={{ color: 'red' }}>{error2}</p>}
-        <button onClick={handleConnect}>Connect</button>
+        <button className='Connect' onClick={handleConnect}>Connect</button>
       </Dialog>
-    </div>
+    </div> 
   );
 };
 

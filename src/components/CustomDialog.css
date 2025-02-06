@@ -25,13 +25,13 @@
 
 .custom-dialog h2 {
   margin-top: 0;
-  font-size: 1.8rem;
+  font-size:35px;
   color: #333;
   text-align: center;
 }
 
 .color-picker {
-  margin-top: 10px;
+  margin-top:10px;
 }
 
 .dialog-actions {
@@ -71,6 +71,19 @@
 .dialog-actions button:active {
   transform: scale(0.98);
 }
+.B2{
+  background-color: #4caf50;
+  color: white;
+  transform: scale(0.98);
+
+}
+.tytel-color{
+  font-size: 25px;
+}
+.enter-text{
+  font-size: 25px;
+}
+
 
 /* אנימציה */
 @keyframes fadeIn {

@@ -1,0 +1,52 @@
+.B3-center{
+  display: flex;
+justify-content: center;
+align-items: center;
+}
+.Buttons{
+  background: linear-gradient(45deg, #ff6b6b, #f7a500);
+  border-radius: 25px; 
+  font-size: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* צל מתחת לכפתור */
+  transition: transform 0.2s , box-shadow 0.2s ; 
+}
+.Buttons:hover{
+  transform: scale(1.1); /* הגדלת הכפתור בהצבעה */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15); /* הגברת הצל */
+}
+.TitelList{
+  text-align: center;
+  color: #ff6b6b;
+  font-weight: bold;
+  font-size: 70px;
+  text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.3); /* צללית לטקסט */  
+}
+.List {
+  list-style-type: none; /* מסיר את הסימנים המובנים של רשימה */
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* ממקם את כל הפריטים במרכז בצורה אופקית */
+  justify-content: center; /* ממקם את הרשימה במרכז בצורה אנכית */
+  max-width: 800px; /* מגביל את רוחב הרשימה */
+  margin: 0 auto; /* ממקם את הרשימה במרכז הדף */
+}
+
+/* עיצוב כל פריט ברשימה */
+.List li {
+  background-color: #fff; /* צבע רקע לבן */
+  border: 1px solid #ddd; /* מסגרת אפורה דקה סביב כל פריט */
+  border-radius: 8px; /* קצוות מעוגלים */
+  padding: 15px 20px; /* ריפוד פנימי */
+  margin-bottom: 15px; /* רווח בין פריטים */
+  width: 100%; /* תופס את כל רוחב הרשימה */
+  max-width: 600px; /* מגביל את הרוחב של כל פריט */
+  text-align: center; /* ממקם את הטקסט במרכז */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* צל עדין */
+  transition: transform 0.3s, box}
+  .ListPage{
+    width: 100%;
+  height: 100%;
+    background-image: url('./img/Background.jpg');
+  }
