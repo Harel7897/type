@@ -13,14 +13,14 @@ const MapComponent: React.FC = () => {
   const [markers, setMarkers] = useState<any[]>([]);  // מערך של אובייקטים עם כל המידע
   const [openDialog, setOpenDialog] = useState(false);
   const { addNode } = useGraphContext();
-
   const { setChosenPage } = useAuthContext();
-
+  
   useEffect(() => {
     if (mapRef.current) {
       console.log('map is ready');
     }
   }, [mapRef]);
+  
 
   const handleopenDialog = () => {
     setOpenDialog(true);

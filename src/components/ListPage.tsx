@@ -3,7 +3,7 @@ import { useGraphContext } from "./GraphContext";
 import { useAuthContext } from "./AuthContext";
 import CustomDialog from "./CustomDialog";
 import './ListPage.css'
-
+ 
 
 const ListPage: React.FC=()=>{
     
@@ -13,7 +13,7 @@ const ListPage: React.FC=()=>{
   const[openDialog , setopenDialog]=useState(false);
        
         
-  const handleopenDialog=()=>{
+  const handleopenDialog=()=>{ 
         setopenDialog(true);
     }
     
